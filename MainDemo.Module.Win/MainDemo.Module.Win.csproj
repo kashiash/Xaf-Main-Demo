@@ -183,7 +183,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\WinOperationResultController.cs" />
+    <Compile Include="Controllers\WinOperationResultController.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Controllers\CustomWinShowStartupNavigationItemController.cs">
       <SubType>Component</SubType>
     </Compile>

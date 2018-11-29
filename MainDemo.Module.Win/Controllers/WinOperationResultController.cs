@@ -6,7 +6,7 @@ using DevExpress.ExpressApp.Win.Templates;
 
 namespace XafApplication51.Module.Win.Controllers
 {
-    public class WinOperationResultController : ViewController<DetailView>
+    public class WinOperationResultController : ViewController
     {
 
         Timer timer;
