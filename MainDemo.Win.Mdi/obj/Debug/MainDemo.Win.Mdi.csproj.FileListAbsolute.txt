@@ -11,7 +11,6 @@ c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win.Mdi\bin\Debug\Mai
 c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win.Mdi\bin\Debug\MainDemo.Module.pdb
 c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win.Mdi\bin\Debug\de\MainDemo.Module.Win.resources.dll
 c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win.Mdi\bin\Debug\de\MainDemo.Module.resources.dll
-c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win.Mdi\obj\Debug\MainDemo.Win.Mdi.csprojAssemblyReference.cache
 c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win.Mdi\obj\Debug\MainDemo.Win.Mdi.MainDemoWinApplication.resources
 c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win.Mdi\obj\Debug\MainDemo.Win.Mdi.Properties.Resources.resources
 c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win.Mdi\obj\Debug\MainDemo.Win.Mdi.csproj.GenerateResource.cache

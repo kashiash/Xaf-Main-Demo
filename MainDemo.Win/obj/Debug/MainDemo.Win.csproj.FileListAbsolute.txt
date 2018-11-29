@@ -19,3 +19,6 @@ c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\obj\Debug\MainDem
 c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\obj\Debug\MainDemo.Win.csproj.CopyComplete
 c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\obj\Debug\MainDemo.Win.exe
 c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\obj\Debug\MainDemo.Win.pdb
+C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\obj\Debug\MainDemo.Win.exe.licenses
+C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\bin\Debug\Vestris.ResourceLib.dll
+C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\bin\Debug\Xpand.ExpressApp.Win.Para.WindowsIntegration.dll

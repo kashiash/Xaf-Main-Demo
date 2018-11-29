@@ -78,3 +78,6 @@ c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Module.Win\obj\Debug\
 c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Module.Win\obj\Debug\MainDemo.Module.Win.csproj.CopyComplete
 c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Module.Win\obj\Debug\MainDemo.Module.Win.dll
 c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Module.Win\obj\Debug\MainDemo.Module.Win.pdb
+C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Module.Win\bin\Debug\Vestris.ResourceLib.dll
+C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Module.Win\bin\Debug\Xpand.ExpressApp.Win.Para.WindowsIntegration.dll
+C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Module.Win\obj\Debug\MainDemo.Module.Win.dll.licenses
