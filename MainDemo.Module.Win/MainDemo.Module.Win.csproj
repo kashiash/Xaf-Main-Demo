@@ -64,6 +64,8 @@
     <Reference Include="DevExpress.Data.v18.2">
       <Private>False</Private>
     </Reference>
+    <Reference Include="DevExpress.ExpressApp.Notifications.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.ExpressApp.Notifications.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.ExpressApp.Office.Win.v18.2">
       <Private>False</Private>
     </Reference>
@@ -181,11 +183,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\DetailViewLayoutCustomizationController.cs" />
-    <Compile Include="Controllers\RichNotesListViewController.cs" />
-    <Compile Include="Controllers\JumpListHandleStartupItemController.cs">
+    <Compile Include="Controllers\CustomWinShowStartupNavigationItemController.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Controllers\DetailViewLayoutCustomizationController.cs" />
+    <Compile Include="Controllers\RichNotesListViewController.cs" />
     <Compile Include="Controllers\WinTooltipController.cs">
       <SubType>Component</SubType>
     </Compile>

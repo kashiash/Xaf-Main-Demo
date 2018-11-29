@@ -13,4 +13,4 @@ c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Module\obj\Debug\de\M
 c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Module\obj\Debug\MainDemo.Module.dll
 c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Module\obj\Debug\MainDemo.Module.pdb
 C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Module\obj\Debug\MainDemo.Module.dll.licenses
-C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Module\obj\Debug\MainDemo.Module.csprojAssemblyReference.cache
+c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Module\obj\Debug\MainDemo.Module.csprojAssemblyReference.cache

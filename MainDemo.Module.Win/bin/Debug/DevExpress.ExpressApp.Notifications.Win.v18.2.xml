@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DevExpress.ExpressApp.Notifications.Win.v18.2</name>
+    </assembly>
+    <members>
+        <member name="T:DevExpress.ExpressApp.Notifications.Win.WinNotificationsController">
+
+            <summary>
+                <para>Inherits from the <see cref="T:DevExpress.ExpressApp.Notifications.NotificationsController"/> to implement WinForms specific behavior.</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.ExpressApp.Notifications.Win.WinNotificationsController.#ctor">
+            <summary>
+                <para>Creates a new instance of the <see cref="T:DevExpress.ExpressApp.Notifications.Win.WinNotificationsController"/> class.</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.ExpressApp.Notifications.Win.WinNotificationsController.RefreshNotifications">
+            <summary>
+                <para>Refreshes the notifications list.</para>
+            </summary>
+
+
+        </member>
+    </members>
+</doc>

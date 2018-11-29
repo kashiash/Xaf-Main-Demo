@@ -1,3 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Application>
+  <NavigationItems StartupNavigationItem="">
+    <Items>
+      <Item Id="Default" Visible="True" />
+      <Item Id="Reports" Visible="True" />
+    </Items>
+  </NavigationItems>
+  <Options UIType="MultipleWindowSDI" />
+  <SchemaModules>
+    <SchemaModule Name="SchedulerModuleBase" Version="18.2.3.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerWindowsFormsModule" Version="18.2.3.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="18.2.3.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="18.2.3.0" IsNewNode="True" />
+  </SchemaModules>
 </Application>

@@ -29,6 +29,18 @@ public class TaskbarJumpListHandleStartupItemController : WindowController
         //    var item = new ChoiceActionItem("CommandLineArgument", sc);
         //    controller.ShowNavigationItemAction.DoExecute(item);
         //}
+
+        // show listview by bo name
+        //Type objectType = AppDomain.CurrentDomain.GetAssemblies()
+        //               .SelectMany(x => x.GetTypes())
+        //               .FirstOrDefault(x => x.Name == "Contact");
+
+        //string listViewId = "Person_ListView";//Application.FindLookupListViewId(objectType);
+        //CollectionSourceBase collectionSource = Application.CreateCollectionSource(Application.CreateObjectSpace(), objectType, listViewId);
+
+        //DevExpress.ExpressApp.View listView = Application.CreateListView(listViewId, collectionSource, true);
+
+
     }
 
     protected override void OnActivated()

@@ -81,3 +81,11 @@ c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Module.Win\obj\Debug\
 C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Module.Win\bin\Debug\Vestris.ResourceLib.dll
 C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Module.Win\bin\Debug\Xpand.ExpressApp.Win.Para.WindowsIntegration.dll
 C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Module.Win\obj\Debug\MainDemo.Module.Win.dll.licenses
+c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Module.Win\bin\Debug\DevExpress.ExpressApp.Notifications.v18.2.dll
+c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Module.Win\bin\Debug\DevExpress.ExpressApp.Notifications.Win.v18.2.dll
+c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Module.Win\bin\Debug\DevExpress.ExpressApp.Notifications.v18.2.xml
+c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Module.Win\bin\Debug\DevExpress.ExpressApp.Notifications.Win.v18.2.xml
+c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Module.Win\bin\Debug\de\DevExpress.ExpressApp.Notifications.v18.2.resources.dll
+c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Module.Win\bin\Debug\es\DevExpress.ExpressApp.Notifications.v18.2.resources.dll
+c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Module.Win\bin\Debug\ja\DevExpress.ExpressApp.Notifications.v18.2.resources.dll
+c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Module.Win\bin\Debug\ru\DevExpress.ExpressApp.Notifications.v18.2.resources.dll
