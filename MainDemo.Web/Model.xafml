@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel>
+    <Class Name="DevExpress.ExpressApp.Notifications.NotificationsObject">
+      <OwnMembers>
+        <Member Name="Postpone" PropertyEditorType="DevExpress.ExpressApp.Web.Editors.ASPx.ASPxLookupPropertyEditor" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.Event">
+      <OwnMembers>
+        <Member Name="ReminderTime" PropertyEditorType="DevExpress.ExpressApp.Web.Editors.ASPx.ASPxLookupPropertyEditor" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="Default">
+        <Items>
+          <Item Id="Contact_ListView" Index="0" />
+          <Item Id="DemoTask_ListView" Index="1" />
+          <Item Id="Department_ListView" Index="2" />
+          <Item Id="Event_ListView" Index="3" />
+          <Item Id="MyDetails" Index="4" />
+          <Item Id="Note" Index="5" />
+          <Item Id="Payment_ListView" Index="6" />
+          <Item Id="Resume_ListView" Index="8" />
+        </Items>
+      </Item>
+      <Item Id="Reports">
+        <Items>
+          <Item Id="Analysis_ListView" Index="0" />
+          <Item Id="ReportsV2" Index="1" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="SchedulerAspNetModule" Version="18.1.5.0" />
+    <SchemaModule Name="SchedulerModuleBase" Version="18.1.5.0" />
+    <SchemaModule Name="SystemAspNetModule" Version="18.1.5.0" />
+    <SchemaModule Name="SystemModule" Version="18.1.5.0" />
+  </SchemaModules>
+  <ViewItems>
+    <PropertyEditor Name="PropertyEditors">
+      <RegisteredPropertyEditor PropertyType="LookupProperty" EditorType="DevExpress.ExpressApp.Web.Editors.ASPx.ASPxGridLookupPropertyEditor" />
+    </PropertyEditor>
+  </ViewItems>
+</Application>

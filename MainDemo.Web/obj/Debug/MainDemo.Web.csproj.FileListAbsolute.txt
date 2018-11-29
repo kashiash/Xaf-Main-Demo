@@ -1,0 +1,17 @@
+c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Web\bin\Model.xafml
+c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Web\bin\MainDemo.Web.dll.config
+c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Web\bin\MainDemo.Web.dll
+c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Web\bin\MainDemo.Web.pdb
+c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Web\bin\MainDemo.Module.dll
+c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Web\bin\MainDemo.Module.Web.dll
+c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Web\bin\MainDemo.Module.Web.pdb
+c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Web\bin\MainDemo.Module.pdb
+c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Web\bin\de\MainDemo.Module.Web.resources.dll
+c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Web\bin\de\MainDemo.Module.resources.dll
+c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Web\obj\Debug\MainDemo.Web.csprojAssemblyReference.cache
+c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Web\obj\Debug\MainDemo.Web.MainDemoWebApplication.resources
+c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Web\obj\Debug\MainDemo.Web.csproj.GenerateResource.cache
+c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Web\obj\Debug\MainDemo.Web.csproj.CoreCompileInputs.cache
+c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Web\obj\Debug\MainDemo.Web.csproj.CopyComplete
+c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Web\obj\Debug\MainDemo.Web.dll
+c:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Web\obj\Debug\MainDemo.Web.pdb
