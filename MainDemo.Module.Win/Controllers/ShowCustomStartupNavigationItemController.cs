@@ -24,11 +24,11 @@ namespace MyXafModule.Controllers
         {
             base.OnActivated();
             this.ViewClosed += OnClosingApp;
-            navigationController = Frame.GetController<ShowNavigationItemController>();
-            if (navigationController != null)
-            {
-                navigationController.CustomShowNavigationItem += OnCustomShowNavigationItem;
-            }
+            //navigationController = Frame.GetController<ShowNavigationItemController>();
+            //if (navigationController != null)
+            //{
+            //    navigationController.CustomShowNavigationItem += OnCustomShowNavigationItem;
+            //}
         }
 
         private void OnClosingApp(object sender, EventArgs e)
@@ -72,10 +72,10 @@ namespace MyXafModule.Controllers
         //}
         protected override void OnDeactivated()
         {
-            if (navigationController != null)
-            {
-                navigationController.CustomShowNavigationItem -= OnCustomShowNavigationItem;
-            }
+            //if (navigationController != null)
+            //{
+            //    navigationController.CustomShowNavigationItem -= OnCustomShowNavigationItem;
+            //}
             this.ViewClosed -= OnClosingApp;
             base.OnDeactivated();
         }

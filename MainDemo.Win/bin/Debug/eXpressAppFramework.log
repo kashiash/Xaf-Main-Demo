@@ -9733,3 +9733,1074 @@ Loaded assemblies
 
 29.11.18 13:39:11.679	Application stopping
 =====================
+29.11.18 14:00:11.594	================================================================================
+29.11.18 14:00:11.826	Trace Log for MainDemo.Win.exe is started
+29.11.18 14:00:11.827	================================================================================
+29.11.18 14:00:11.829	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 18.2.3.0
+	eXpressApp File Version: 18.2.3.18324
+
+Application config
+	NewVersionServer=
+	EnableDiagnosticActions=False
+	Languages=de;es;ja;ru
+	EasyTestCommunicationPort=15923
+	FeedbackDemoName=MainDemo.Win.CS
+	FeedbackDescription=This demo allows you to store contacts, tasks, events, reports and other related data. It includes reusable XAF modules such Reports, Office, Scheduler, View Variants, PivotChart, AuditTrail, FileAttachments. User authentication and authorization, role and permission administration are powered by XAF’s Security module. The demo also illustrates numerous real-life usage scenarios: business logic in data models, custom Views with Controllers and Actions, data filters with code attributes or Model Editor, underlying UI control customizations, localization, etc. eXpressPersistent Objects ORM is used for data access.
+
+29.11.18 14:00:15.733	Initialize application
+=======================
+29.11.18 14:00:15.734		Command line arguments: 
+		C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\bin\Debug\MainDemo.Win.exe
+		UserName=Jajcuś
+		ViewId=Contact_ListView
+29.11.18 14:00:16.319	Resolve the 'DevExpress.ExpressApp.Security.Xpo.v18.2' assembly
+29.11.18 14:00:16.384	The ValueManagerType is initialized by the default value: SimpleValueManager.
+29.11.18 14:00:16.391	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   at DevExpress.ExpressApp.ReportsV2.ReportsModuleV2.Setup(XafApplication application)
+   at DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   at System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   at DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   at MainDemo.Win.MainDemoWinApplication.InitializeComponent() in C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\MainDemoWinApplication.Designer.cs:line 111
+   at MainDemo.Win.MainDemoWinApplication..ctor() in C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\MainDemoWinApplication.cs:line 25
+   at MainDemo.Win.Program.Main(String[] arguments) in C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\Program.cs:line 41
+
+29.11.18 14:00:16.565	>>EasyTestRemotingRegistration Register
+29.11.18 14:00:16.571	CreateServerChannel port: 15923
+29.11.18 14:00:16.586	<<EasyTestRemotingRegistration Register
+29.11.18 14:00:16.816	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+29.11.18 14:00:16.817	--------------------------------------------------------------------------------
+							
+
+29.11.18 14:00:16.819	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.Data.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Data.v18.2.dll
+	DevExpress.ExpressApp.AuditTrail.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.AuditTrail.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.AuditTrail.v18.2.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v18.2.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.FileAttachment.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.FileAttachment.Win.v18.2.dll
+	DevExpress.ExpressApp.Notifications.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Notifications.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Notifications.v18.2.dll
+	DevExpress.ExpressApp.Notifications.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Notifications.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Notifications.Win.v18.2.dll
+	DevExpress.ExpressApp.Objects.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Objects.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Objects.v18.2.dll
+	DevExpress.ExpressApp.Office.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Office.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Office.Win.v18.2.dll
+	DevExpress.ExpressApp.PivotChart.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotChart.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotChart.v18.2.dll
+	DevExpress.ExpressApp.PivotChart.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotChart.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotChart.Win.v18.2.dll
+	DevExpress.ExpressApp.ReportsV2.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.v18.2.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.Win.v18.2.dll
+	DevExpress.ExpressApp.Scheduler.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.v18.2.dll
+	DevExpress.ExpressApp.Scheduler.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.Win.v18.2.dll
+	DevExpress.ExpressApp.ScriptRecorder.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ScriptRecorder.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ScriptRecorder.v18.2.dll
+	DevExpress.ExpressApp.ScriptRecorder.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ScriptRecorder.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ScriptRecorder.Win.v18.2.dll
+	DevExpress.ExpressApp.Security.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v18.2.dll
+	DevExpress.ExpressApp.Security.Xpo.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.Xpo.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.Xpo.v18.2.dll
+	DevExpress.ExpressApp.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.v18.2.dll
+	DevExpress.ExpressApp.Validation.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v18.2.dll
+	DevExpress.ExpressApp.Validation.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.Win.v18.2.dll
+	DevExpress.ExpressApp.ViewVariantsModule.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ViewVariantsModule.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ViewVariantsModule.v18.2.dll
+	DevExpress.ExpressApp.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v18.2.dll
+	DevExpress.ExpressApp.Xpo.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v18.2.dll
+	DevExpress.Persistent.Base.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Persistent.Base.v18.2.dll
+	DevExpress.Persistent.BaseImpl.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v18.2.dll
+	DevExpress.Printing.v18.2.Core, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v18.2.Core\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Printing.v18.2.Core.dll
+	DevExpress.Utils.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Utils.v18.2.dll
+	DevExpress.Xpo.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Xpo.v18.2.dll
+	DevExpress.XtraBars.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraBars.v18.2.dll
+	DevExpress.XtraEditors.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraEditors.v18.2.dll
+	DevExpress.XtraReports.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraReports.v18.2.dll
+	DevExpress.XtraReports.v18.2.Extensions, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v18.2.Extensions\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraReports.v18.2.Extensions.dll
+	DevExpress.XtraScheduler.v18.2.Core, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraScheduler.v18.2.Core\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraScheduler.v18.2.Core.dll
+	MainDemo.Module, Version=18.2.3.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\bin\Debug\MainDemo.Module.dll
+	MainDemo.Module.Win, Version=18.2.3.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\bin\Debug\MainDemo.Module.Win.dll
+	MainDemo.Win, Version=18.2.3.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\bin\Debug\MainDemo.Win.exe
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Data.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.Entity\v4.0_4.0.0.0__b77a5c561934e089\System.Data.Entity.dll
+	System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Runtime.Remoting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	UIAutomationClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\UIAutomationClient\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationClient.dll
+29.11.18 14:00:16.855	Resolve the 'DevExpress.BonusSkins.v18.2, Version=18.2.3.0' assembly
+29.11.18 14:00:17.462	SetupModules
+29.11.18 14:00:17.570	Customize TypesInfo
+29.11.18 14:00:21.240		preferredLanguageName: (Default language)
+								userLanguageName: en-GB
+
+29.11.18 14:00:21.241		preferredLanguageName: (Default language)
+								userFormattingCultureName: 
+								selectedFormattingCultureName: 
+
+29.11.18 14:00:21.242	User's language is empty
+29.11.18 14:00:21.243	--------------------------------------------------------------------------------
+							Start logon process
+
+29.11.18 14:00:21.244	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+29.11.18 14:00:21.244		ConnectionString: integrated security=SSPI;pooling=false;data source=(localdb)\mssqllocaldb;initial catalog=MainDemo_v18.2;XpoDataStorePool=True;
+29.11.18 14:00:21.245		ConnectionString: 
+29.11.18 14:00:25.576	--------------------------------------------------------------------------------
+							UpdateDB
+
+29.11.18 14:00:25.636		ConnectionString: integrated security=SSPI;pooling=false;data source=(localdb)\mssqllocaldb;initial catalog=MainDemo_v18.2;XpoDataStorePool=True;
+29.11.18 14:00:25.806	ExecuteScalarCommand: 'select CHARACTER_MAXIMUM_LENGTH from INFORMATION_SCHEMA.Columns WHERE TABLE_NAME = 'Analysis' AND COLUMN_NAME = 'Criteria'', silent=True
+29.11.18 14:00:27.630	--------------------------------------------------------------------------------
+							Logon successful
+
+29.11.18 14:00:27.657	--------------------------------------------------------------------------------
+							Logon completed
+
+29.11.18 14:00:28.904		startUpActions: 1
+29.11.18 14:00:29.215	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+29.11.18 14:00:32.240	Generate default Model for Action containers
+29.11.18 14:00:37.918	Application startup done
+=========================
+29.11.18 14:00:37.922	Application running
+====================
+29.11.18 14:00:48.253	--------------------------------------------------------------------------------
+							Execute action
+
+29.11.18 14:00:48.254		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: DialogOK
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.SystemModule.DialogController
+								Context.Name: Contact
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Angelia Hanna
+
+29.11.18 14:00:48.284	Window closing: Angelia Hanna - Contact
+29.11.18 14:00:48.753	Action 'DialogOK' done
+29.11.18 14:00:48.755	Window closed: Angelia Hanna - Contact
+29.11.18 14:01:01.561	Window closing: Main Demo
+29.11.18 14:01:01.566	Window closed: Main Demo
+29.11.18 14:01:01.736	Save model changes
+===================
+29.11.18 14:01:01.746	Save model changes
+===================
+29.11.18 14:01:01.752	--------------------------------------------------------------------------------
+							Logoff completed
+
+29.11.18 14:01:01.755	Application stopping
+=====================
+29.11.18 14:04:28.779	================================================================================
+29.11.18 14:04:28.784	Trace Log for MainDemo.Win.exe is started
+29.11.18 14:04:28.784	================================================================================
+29.11.18 14:04:28.786	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 18.2.3.0
+	eXpressApp File Version: 18.2.3.18324
+
+Application config
+	NewVersionServer=
+	EnableDiagnosticActions=False
+	Languages=de;es;ja;ru
+	EasyTestCommunicationPort=15923
+	FeedbackDemoName=MainDemo.Win.CS
+	FeedbackDescription=This demo allows you to store contacts, tasks, events, reports and other related data. It includes reusable XAF modules such Reports, Office, Scheduler, View Variants, PivotChart, AuditTrail, FileAttachments. User authentication and authorization, role and permission administration are powered by XAF’s Security module. The demo also illustrates numerous real-life usage scenarios: business logic in data models, custom Views with Controllers and Actions, data filters with code attributes or Model Editor, underlying UI control customizations, localization, etc. eXpressPersistent Objects ORM is used for data access.
+
+29.11.18 14:04:28.900	Initialize application
+=======================
+29.11.18 14:04:28.903		Command line arguments: 
+		C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\bin\Debug\MainDemo.Win.exe
+		UserName=Jajcuś
+		ViewId=Contact_ListView
+29.11.18 14:04:29.131	Resolve the 'DevExpress.ExpressApp.Security.Xpo.v18.2' assembly
+29.11.18 14:04:29.155	The ValueManagerType is initialized by the default value: SimpleValueManager.
+29.11.18 14:04:29.161	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   at DevExpress.ExpressApp.ReportsV2.ReportsModuleV2.Setup(XafApplication application)
+   at DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   at System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   at DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   at MainDemo.Win.MainDemoWinApplication.InitializeComponent() in C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\MainDemoWinApplication.Designer.cs:line 111
+   at MainDemo.Win.MainDemoWinApplication..ctor() in C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\MainDemoWinApplication.cs:line 25
+   at MainDemo.Win.Program.Main(String[] arguments) in C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\Program.cs:line 41
+
+29.11.18 14:04:29.200	>>EasyTestRemotingRegistration Register
+29.11.18 14:04:29.207	CreateServerChannel port: 15923
+29.11.18 14:04:29.223	<<EasyTestRemotingRegistration Register
+29.11.18 14:04:29.367	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+29.11.18 14:04:29.368	--------------------------------------------------------------------------------
+							
+
+29.11.18 14:04:29.369	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.Data.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Data.v18.2.dll
+	DevExpress.ExpressApp.AuditTrail.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.AuditTrail.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.AuditTrail.v18.2.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v18.2.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.FileAttachment.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.FileAttachment.Win.v18.2.dll
+	DevExpress.ExpressApp.Notifications.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Notifications.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Notifications.v18.2.dll
+	DevExpress.ExpressApp.Notifications.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Notifications.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Notifications.Win.v18.2.dll
+	DevExpress.ExpressApp.Objects.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Objects.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Objects.v18.2.dll
+	DevExpress.ExpressApp.Office.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Office.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Office.Win.v18.2.dll
+	DevExpress.ExpressApp.PivotChart.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotChart.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotChart.v18.2.dll
+	DevExpress.ExpressApp.PivotChart.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotChart.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotChart.Win.v18.2.dll
+	DevExpress.ExpressApp.ReportsV2.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.v18.2.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.Win.v18.2.dll
+	DevExpress.ExpressApp.Scheduler.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.v18.2.dll
+	DevExpress.ExpressApp.Scheduler.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.Win.v18.2.dll
+	DevExpress.ExpressApp.ScriptRecorder.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ScriptRecorder.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ScriptRecorder.v18.2.dll
+	DevExpress.ExpressApp.ScriptRecorder.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ScriptRecorder.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ScriptRecorder.Win.v18.2.dll
+	DevExpress.ExpressApp.Security.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v18.2.dll
+	DevExpress.ExpressApp.Security.Xpo.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.Xpo.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.Xpo.v18.2.dll
+	DevExpress.ExpressApp.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.v18.2.dll
+	DevExpress.ExpressApp.Validation.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v18.2.dll
+	DevExpress.ExpressApp.Validation.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.Win.v18.2.dll
+	DevExpress.ExpressApp.ViewVariantsModule.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ViewVariantsModule.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ViewVariantsModule.v18.2.dll
+	DevExpress.ExpressApp.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v18.2.dll
+	DevExpress.ExpressApp.Xpo.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v18.2.dll
+	DevExpress.Persistent.Base.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Persistent.Base.v18.2.dll
+	DevExpress.Persistent.BaseImpl.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v18.2.dll
+	DevExpress.Printing.v18.2.Core, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v18.2.Core\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Printing.v18.2.Core.dll
+	DevExpress.Utils.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Utils.v18.2.dll
+	DevExpress.Xpo.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Xpo.v18.2.dll
+	DevExpress.XtraBars.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraBars.v18.2.dll
+	DevExpress.XtraEditors.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraEditors.v18.2.dll
+	DevExpress.XtraReports.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraReports.v18.2.dll
+	DevExpress.XtraReports.v18.2.Extensions, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v18.2.Extensions\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraReports.v18.2.Extensions.dll
+	DevExpress.XtraScheduler.v18.2.Core, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraScheduler.v18.2.Core\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraScheduler.v18.2.Core.dll
+	MainDemo.Module, Version=18.2.3.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\bin\Debug\MainDemo.Module.dll
+	MainDemo.Module.Win, Version=18.2.3.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\bin\Debug\MainDemo.Module.Win.dll
+	MainDemo.Win, Version=18.2.3.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\bin\Debug\MainDemo.Win.exe
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Data.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.Entity\v4.0_4.0.0.0__b77a5c561934e089\System.Data.Entity.dll
+	System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Runtime.Remoting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	UIAutomationClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\UIAutomationClient\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationClient.dll
+29.11.18 14:04:29.408	Resolve the 'DevExpress.BonusSkins.v18.2, Version=18.2.3.0' assembly
+29.11.18 14:04:29.541	SetupModules
+29.11.18 14:04:29.658	Customize TypesInfo
+29.11.18 14:04:32.097		preferredLanguageName: (Default language)
+								userLanguageName: en-GB
+
+29.11.18 14:04:32.098		preferredLanguageName: (Default language)
+								userFormattingCultureName: 
+								selectedFormattingCultureName: 
+
+29.11.18 14:04:32.099	User's language is empty
+29.11.18 14:04:32.100	--------------------------------------------------------------------------------
+							Start logon process
+
+29.11.18 14:04:32.101	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+29.11.18 14:04:32.101		ConnectionString: integrated security=SSPI;pooling=false;data source=(localdb)\mssqllocaldb;initial catalog=MainDemo_v18.2;XpoDataStorePool=True;
+29.11.18 14:04:32.102		ConnectionString: 
+29.11.18 14:04:32.505	--------------------------------------------------------------------------------
+							UpdateDB
+
+29.11.18 14:04:32.563		ConnectionString: integrated security=SSPI;pooling=false;data source=(localdb)\mssqllocaldb;initial catalog=MainDemo_v18.2;XpoDataStorePool=True;
+29.11.18 14:04:32.696	ExecuteScalarCommand: 'select CHARACTER_MAXIMUM_LENGTH from INFORMATION_SCHEMA.Columns WHERE TABLE_NAME = 'Analysis' AND COLUMN_NAME = 'Criteria'', silent=True
+29.11.18 14:04:33.143	--------------------------------------------------------------------------------
+							Logon successful
+
+29.11.18 14:04:33.147	--------------------------------------------------------------------------------
+							Logon completed
+
+29.11.18 14:04:33.297		startUpActions: 1
+29.11.18 14:04:33.387	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+29.11.18 14:04:33.822	Generate default Model for Action containers
+29.11.18 14:04:34.163	Application startup done
+=========================
+29.11.18 14:04:34.164	Application running
+====================
+29.11.18 14:04:43.769	'Notes' property editor: new value is 'fsdsdfsdfssdfgsdfgsdfgdfg'
+29.11.18 14:04:43.943	--------------------------------------------------------------------------------
+							Execute action
+
+29.11.18 14:04:43.944		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: DialogOK
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.SystemModule.DialogController
+								Context.Name: Contact
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Angelia Hanna
+
+29.11.18 14:04:47.586	--------------------------------------------------------------------------------
+							Execute action
+
+29.11.18 14:04:47.587		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Save
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Contact
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Angelia Hanna
+
+29.11.18 14:04:47.708	Action 'Save' done
+29.11.18 14:04:47.710	Window closing: Angelia Hanna - Contact
+29.11.18 14:04:47.734	Action 'DialogOK' done
+29.11.18 14:04:47.736	Window closed: Angelia Hanna - Contact
+29.11.18 14:04:50.661	Window closing: Main Demo
+29.11.18 14:04:50.668	Window closed: Main Demo
+29.11.18 14:04:50.740	Save model changes
+===================
+29.11.18 14:04:50.750	Save model changes
+===================
+29.11.18 14:04:50.757	--------------------------------------------------------------------------------
+							Logoff completed
+
+29.11.18 14:04:50.759	Application stopping
+=====================
+29.11.18 14:05:02.543	================================================================================
+29.11.18 14:05:02.548	Trace Log for MainDemo.Win.exe is started
+29.11.18 14:05:02.548	================================================================================
+29.11.18 14:05:02.549	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 18.2.3.0
+	eXpressApp File Version: 18.2.3.18324
+
+Application config
+	NewVersionServer=
+	EnableDiagnosticActions=False
+	Languages=de;es;ja;ru
+	EasyTestCommunicationPort=15923
+	FeedbackDemoName=MainDemo.Win.CS
+	FeedbackDescription=This demo allows you to store contacts, tasks, events, reports and other related data. It includes reusable XAF modules such Reports, Office, Scheduler, View Variants, PivotChart, AuditTrail, FileAttachments. User authentication and authorization, role and permission administration are powered by XAF’s Security module. The demo also illustrates numerous real-life usage scenarios: business logic in data models, custom Views with Controllers and Actions, data filters with code attributes or Model Editor, underlying UI control customizations, localization, etc. eXpressPersistent Objects ORM is used for data access.
+
+29.11.18 14:05:02.652	Initialize application
+=======================
+29.11.18 14:05:02.653		Command line arguments: 
+		C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\bin\Debug\MainDemo.Win.exe
+		UserName=Jajcuś
+		ViewId=Contact_ListView
+29.11.18 14:05:02.832	Resolve the 'DevExpress.ExpressApp.Security.Xpo.v18.2' assembly
+29.11.18 14:05:02.859	The ValueManagerType is initialized by the default value: SimpleValueManager.
+29.11.18 14:05:02.865	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   at DevExpress.ExpressApp.ReportsV2.ReportsModuleV2.Setup(XafApplication application)
+   at DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   at System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   at DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   at MainDemo.Win.MainDemoWinApplication.InitializeComponent() in C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\MainDemoWinApplication.Designer.cs:line 111
+   at MainDemo.Win.MainDemoWinApplication..ctor() in C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\MainDemoWinApplication.cs:line 25
+   at MainDemo.Win.Program.Main(String[] arguments) in C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\Program.cs:line 41
+
+29.11.18 14:05:02.902	>>EasyTestRemotingRegistration Register
+29.11.18 14:05:02.907	CreateServerChannel port: 15923
+29.11.18 14:05:02.918	<<EasyTestRemotingRegistration Register
+29.11.18 14:05:03.068	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+29.11.18 14:05:03.069	--------------------------------------------------------------------------------
+							
+
+29.11.18 14:05:03.070	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.Data.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Data.v18.2.dll
+	DevExpress.ExpressApp.AuditTrail.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.AuditTrail.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.AuditTrail.v18.2.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v18.2.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.FileAttachment.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.FileAttachment.Win.v18.2.dll
+	DevExpress.ExpressApp.Notifications.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Notifications.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Notifications.v18.2.dll
+	DevExpress.ExpressApp.Notifications.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Notifications.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Notifications.Win.v18.2.dll
+	DevExpress.ExpressApp.Objects.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Objects.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Objects.v18.2.dll
+	DevExpress.ExpressApp.Office.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Office.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Office.Win.v18.2.dll
+	DevExpress.ExpressApp.PivotChart.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotChart.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotChart.v18.2.dll
+	DevExpress.ExpressApp.PivotChart.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotChart.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotChart.Win.v18.2.dll
+	DevExpress.ExpressApp.ReportsV2.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.v18.2.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.Win.v18.2.dll
+	DevExpress.ExpressApp.Scheduler.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.v18.2.dll
+	DevExpress.ExpressApp.Scheduler.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.Win.v18.2.dll
+	DevExpress.ExpressApp.ScriptRecorder.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ScriptRecorder.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ScriptRecorder.v18.2.dll
+	DevExpress.ExpressApp.ScriptRecorder.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ScriptRecorder.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ScriptRecorder.Win.v18.2.dll
+	DevExpress.ExpressApp.Security.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v18.2.dll
+	DevExpress.ExpressApp.Security.Xpo.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.Xpo.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.Xpo.v18.2.dll
+	DevExpress.ExpressApp.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.v18.2.dll
+	DevExpress.ExpressApp.Validation.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v18.2.dll
+	DevExpress.ExpressApp.Validation.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.Win.v18.2.dll
+	DevExpress.ExpressApp.ViewVariantsModule.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ViewVariantsModule.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ViewVariantsModule.v18.2.dll
+	DevExpress.ExpressApp.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v18.2.dll
+	DevExpress.ExpressApp.Xpo.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v18.2.dll
+	DevExpress.Persistent.Base.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Persistent.Base.v18.2.dll
+	DevExpress.Persistent.BaseImpl.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v18.2.dll
+	DevExpress.Printing.v18.2.Core, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v18.2.Core\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Printing.v18.2.Core.dll
+	DevExpress.Utils.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Utils.v18.2.dll
+	DevExpress.Xpo.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Xpo.v18.2.dll
+	DevExpress.XtraBars.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraBars.v18.2.dll
+	DevExpress.XtraEditors.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraEditors.v18.2.dll
+	DevExpress.XtraReports.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraReports.v18.2.dll
+	DevExpress.XtraReports.v18.2.Extensions, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v18.2.Extensions\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraReports.v18.2.Extensions.dll
+	DevExpress.XtraScheduler.v18.2.Core, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraScheduler.v18.2.Core\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraScheduler.v18.2.Core.dll
+	MainDemo.Module, Version=18.2.3.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\bin\Debug\MainDemo.Module.dll
+	MainDemo.Module.Win, Version=18.2.3.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\bin\Debug\MainDemo.Module.Win.dll
+	MainDemo.Win, Version=18.2.3.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\bin\Debug\MainDemo.Win.exe
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Data.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.Entity\v4.0_4.0.0.0__b77a5c561934e089\System.Data.Entity.dll
+	System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Runtime.Remoting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	UIAutomationClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\UIAutomationClient\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationClient.dll
+29.11.18 14:05:03.106	Resolve the 'DevExpress.BonusSkins.v18.2, Version=18.2.3.0' assembly
+29.11.18 14:05:03.249	SetupModules
+29.11.18 14:05:03.370	Customize TypesInfo
+29.11.18 14:05:05.690		preferredLanguageName: (Default language)
+								userLanguageName: en-GB
+
+29.11.18 14:05:05.692		preferredLanguageName: (Default language)
+								userFormattingCultureName: 
+								selectedFormattingCultureName: 
+
+29.11.18 14:05:05.692	User's language is empty
+29.11.18 14:05:05.693	--------------------------------------------------------------------------------
+							Start logon process
+
+29.11.18 14:05:05.694	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+29.11.18 14:05:05.695		ConnectionString: integrated security=SSPI;pooling=false;data source=(localdb)\mssqllocaldb;initial catalog=MainDemo_v18.2;XpoDataStorePool=True;
+29.11.18 14:05:05.696		ConnectionString: 
+29.11.18 14:05:06.134	--------------------------------------------------------------------------------
+							UpdateDB
+
+29.11.18 14:05:06.192		ConnectionString: integrated security=SSPI;pooling=false;data source=(localdb)\mssqllocaldb;initial catalog=MainDemo_v18.2;XpoDataStorePool=True;
+29.11.18 14:05:06.322	ExecuteScalarCommand: 'select CHARACTER_MAXIMUM_LENGTH from INFORMATION_SCHEMA.Columns WHERE TABLE_NAME = 'Analysis' AND COLUMN_NAME = 'Criteria'', silent=True
+29.11.18 14:05:06.799	--------------------------------------------------------------------------------
+							Logon successful
+
+29.11.18 14:05:06.804	--------------------------------------------------------------------------------
+							Logon completed
+
+29.11.18 14:05:06.954		startUpActions: 1
+29.11.18 14:05:07.030	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+29.11.18 14:05:07.473	Generate default Model for Action containers
+29.11.18 14:05:07.783	Application startup done
+=========================
+29.11.18 14:05:07.783	Application running
+====================
+29.11.18 14:05:13.080	Window closing: Angelia Hanna - Contact
+29.11.18 14:05:13.105	Window closed: Angelia Hanna - Contact
+29.11.18 14:05:15.066	Window closing: Main Demo
+29.11.18 14:05:15.070	Window closed: Main Demo
+29.11.18 14:05:15.143	Save model changes
+===================
+29.11.18 14:05:15.151	Save model changes
+===================
+29.11.18 14:05:15.159	--------------------------------------------------------------------------------
+							Logoff completed
+
+29.11.18 14:05:15.162	Application stopping
+=====================
+29.11.18 14:09:25.078	================================================================================
+29.11.18 14:09:25.082	Trace Log for MainDemo.Win.exe is started
+29.11.18 14:09:25.083	================================================================================
+29.11.18 14:09:25.085	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 18.2.3.0
+	eXpressApp File Version: 18.2.3.18324
+
+Application config
+	NewVersionServer=
+	EnableDiagnosticActions=False
+	Languages=de;es;ja;ru
+	EasyTestCommunicationPort=15923
+	FeedbackDemoName=MainDemo.Win.CS
+	FeedbackDescription=This demo allows you to store contacts, tasks, events, reports and other related data. It includes reusable XAF modules such Reports, Office, Scheduler, View Variants, PivotChart, AuditTrail, FileAttachments. User authentication and authorization, role and permission administration are powered by XAF’s Security module. The demo also illustrates numerous real-life usage scenarios: business logic in data models, custom Views with Controllers and Actions, data filters with code attributes or Model Editor, underlying UI control customizations, localization, etc. eXpressPersistent Objects ORM is used for data access.
+
+29.11.18 14:09:25.198	Initialize application
+=======================
+29.11.18 14:09:25.199		Command line arguments: 
+		C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\bin\Debug\MainDemo.Win.exe
+		UserName=Jajcuś
+		ViewId=Contact_ListView
+29.11.18 14:09:25.379	Resolve the 'DevExpress.ExpressApp.Security.Xpo.v18.2' assembly
+29.11.18 14:09:25.405	The ValueManagerType is initialized by the default value: SimpleValueManager.
+29.11.18 14:09:25.411	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   at DevExpress.ExpressApp.ReportsV2.ReportsModuleV2.Setup(XafApplication application)
+   at DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   at System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   at DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   at MainDemo.Win.MainDemoWinApplication.InitializeComponent() in C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\MainDemoWinApplication.Designer.cs:line 111
+   at MainDemo.Win.MainDemoWinApplication..ctor() in C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\MainDemoWinApplication.cs:line 25
+   at MainDemo.Win.Program.Main(String[] arguments) in C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\Program.cs:line 41
+
+29.11.18 14:09:25.449	>>EasyTestRemotingRegistration Register
+29.11.18 14:09:25.456	CreateServerChannel port: 15923
+29.11.18 14:09:25.469	<<EasyTestRemotingRegistration Register
+29.11.18 14:09:25.621	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+29.11.18 14:09:25.622	--------------------------------------------------------------------------------
+							
+
+29.11.18 14:09:25.623	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.Data.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Data.v18.2.dll
+	DevExpress.ExpressApp.AuditTrail.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.AuditTrail.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.AuditTrail.v18.2.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v18.2.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.FileAttachment.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.FileAttachment.Win.v18.2.dll
+	DevExpress.ExpressApp.Notifications.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Notifications.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Notifications.v18.2.dll
+	DevExpress.ExpressApp.Notifications.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Notifications.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Notifications.Win.v18.2.dll
+	DevExpress.ExpressApp.Objects.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Objects.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Objects.v18.2.dll
+	DevExpress.ExpressApp.Office.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Office.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Office.Win.v18.2.dll
+	DevExpress.ExpressApp.PivotChart.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotChart.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotChart.v18.2.dll
+	DevExpress.ExpressApp.PivotChart.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotChart.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotChart.Win.v18.2.dll
+	DevExpress.ExpressApp.ReportsV2.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.v18.2.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.Win.v18.2.dll
+	DevExpress.ExpressApp.Scheduler.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.v18.2.dll
+	DevExpress.ExpressApp.Scheduler.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.Win.v18.2.dll
+	DevExpress.ExpressApp.ScriptRecorder.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ScriptRecorder.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ScriptRecorder.v18.2.dll
+	DevExpress.ExpressApp.ScriptRecorder.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ScriptRecorder.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ScriptRecorder.Win.v18.2.dll
+	DevExpress.ExpressApp.Security.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v18.2.dll
+	DevExpress.ExpressApp.Security.Xpo.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.Xpo.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.Xpo.v18.2.dll
+	DevExpress.ExpressApp.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.v18.2.dll
+	DevExpress.ExpressApp.Validation.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v18.2.dll
+	DevExpress.ExpressApp.Validation.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.Win.v18.2.dll
+	DevExpress.ExpressApp.ViewVariantsModule.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ViewVariantsModule.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ViewVariantsModule.v18.2.dll
+	DevExpress.ExpressApp.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v18.2.dll
+	DevExpress.ExpressApp.Xpo.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v18.2.dll
+	DevExpress.Persistent.Base.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Persistent.Base.v18.2.dll
+	DevExpress.Persistent.BaseImpl.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v18.2.dll
+	DevExpress.Printing.v18.2.Core, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v18.2.Core\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Printing.v18.2.Core.dll
+	DevExpress.Utils.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Utils.v18.2.dll
+	DevExpress.Xpo.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Xpo.v18.2.dll
+	DevExpress.XtraBars.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraBars.v18.2.dll
+	DevExpress.XtraEditors.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraEditors.v18.2.dll
+	DevExpress.XtraReports.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraReports.v18.2.dll
+	DevExpress.XtraReports.v18.2.Extensions, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v18.2.Extensions\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraReports.v18.2.Extensions.dll
+	DevExpress.XtraScheduler.v18.2.Core, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraScheduler.v18.2.Core\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraScheduler.v18.2.Core.dll
+	MainDemo.Module, Version=18.2.3.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\bin\Debug\MainDemo.Module.dll
+	MainDemo.Module.Win, Version=18.2.3.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\bin\Debug\MainDemo.Module.Win.dll
+	MainDemo.Win, Version=18.2.3.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\bin\Debug\MainDemo.Win.exe
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Data.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.Entity\v4.0_4.0.0.0__b77a5c561934e089\System.Data.Entity.dll
+	System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Runtime.Remoting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	UIAutomationClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\UIAutomationClient\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationClient.dll
+29.11.18 14:09:25.659	Resolve the 'DevExpress.BonusSkins.v18.2, Version=18.2.3.0' assembly
+29.11.18 14:09:25.796	SetupModules
+29.11.18 14:09:25.925	Customize TypesInfo
+29.11.18 14:09:28.224		preferredLanguageName: (Default language)
+								userLanguageName: en-GB
+
+29.11.18 14:09:28.225		preferredLanguageName: (Default language)
+								userFormattingCultureName: 
+								selectedFormattingCultureName: 
+
+29.11.18 14:09:28.226	User's language is empty
+29.11.18 14:09:28.228	--------------------------------------------------------------------------------
+							Start logon process
+
+29.11.18 14:09:28.229	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+29.11.18 14:09:28.230		ConnectionString: integrated security=SSPI;pooling=false;data source=(localdb)\mssqllocaldb;initial catalog=MainDemo_v18.2;XpoDataStorePool=True;
+29.11.18 14:09:28.231		ConnectionString: 
+29.11.18 14:09:28.650	--------------------------------------------------------------------------------
+							UpdateDB
+
+29.11.18 14:09:28.709		ConnectionString: integrated security=SSPI;pooling=false;data source=(localdb)\mssqllocaldb;initial catalog=MainDemo_v18.2;XpoDataStorePool=True;
+29.11.18 14:09:28.844	ExecuteScalarCommand: 'select CHARACTER_MAXIMUM_LENGTH from INFORMATION_SCHEMA.Columns WHERE TABLE_NAME = 'Analysis' AND COLUMN_NAME = 'Criteria'', silent=True
+29.11.18 14:09:29.310	--------------------------------------------------------------------------------
+							Logon successful
+
+29.11.18 14:09:29.315	--------------------------------------------------------------------------------
+							Logon completed
+
+29.11.18 14:09:29.464		startUpActions: 1
+29.11.18 14:09:29.533	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+29.11.18 14:09:29.960	Generate default Model for Action containers
+29.11.18 14:09:30.314	Application startup done
+=========================
+29.11.18 14:09:30.314	Application running
+====================
+29.11.18 14:09:35.522	--------------------------------------------------------------------------------
+							Execute action
+
+29.11.18 14:09:35.523		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: DialogOK
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.SystemModule.DialogController
+								Context.Name: Payments
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: MainDemo.Module.BusinessObjects.Payment(589b69ad-c50d-4b69-848c-063136ff0d3a)
+
+29.11.18 14:09:35.529	Window closing: Main Demo
+29.11.18 14:09:35.534	Window closed: Main Demo
+29.11.18 14:09:35.605	Action 'DialogOK' done
+29.11.18 14:21:06.827	================================================================================
+29.11.18 14:21:06.833	Trace Log for MainDemo.Win.exe is started
+29.11.18 14:21:06.837	================================================================================
+29.11.18 14:21:06.840	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 18.2.3.0
+	eXpressApp File Version: 18.2.3.18324
+
+Application config
+	NewVersionServer=
+	EnableDiagnosticActions=False
+	Languages=de;es;ja;ru
+	EasyTestCommunicationPort=15923
+	FeedbackDemoName=MainDemo.Win.CS
+	FeedbackDescription=This demo allows you to store contacts, tasks, events, reports and other related data. It includes reusable XAF modules such Reports, Office, Scheduler, View Variants, PivotChart, AuditTrail, FileAttachments. User authentication and authorization, role and permission administration are powered by XAF’s Security module. The demo also illustrates numerous real-life usage scenarios: business logic in data models, custom Views with Controllers and Actions, data filters with code attributes or Model Editor, underlying UI control customizations, localization, etc. eXpressPersistent Objects ORM is used for data access.
+
+29.11.18 14:21:06.957	Initialize application
+=======================
+29.11.18 14:21:06.962		Command line arguments: 
+		C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\bin\Debug\MainDemo.Win.exe
+		UserName=Jajcuś
+		ViewId=Contact_ListView
+29.11.18 14:21:07.163	Resolve the 'DevExpress.ExpressApp.Security.Xpo.v18.2' assembly
+29.11.18 14:21:07.190	The ValueManagerType is initialized by the default value: SimpleValueManager.
+29.11.18 14:21:07.198	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   at DevExpress.ExpressApp.ReportsV2.ReportsModuleV2.Setup(XafApplication application)
+   at DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   at System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   at DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   at MainDemo.Win.MainDemoWinApplication.InitializeComponent() in C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\MainDemoWinApplication.Designer.cs:line 111
+   at MainDemo.Win.MainDemoWinApplication..ctor() in C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\MainDemoWinApplication.cs:line 25
+   at MainDemo.Win.Program.Main(String[] arguments) in C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\Program.cs:line 41
+
+29.11.18 14:21:07.243	>>EasyTestRemotingRegistration Register
+29.11.18 14:21:07.249	CreateServerChannel port: 15923
+29.11.18 14:21:07.263	<<EasyTestRemotingRegistration Register
+29.11.18 14:21:07.443	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+29.11.18 14:21:07.447	--------------------------------------------------------------------------------
+							
+
+29.11.18 14:21:07.454	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.Data.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Data.v18.2.dll
+	DevExpress.ExpressApp.AuditTrail.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.AuditTrail.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.AuditTrail.v18.2.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v18.2.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.FileAttachment.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.FileAttachment.Win.v18.2.dll
+	DevExpress.ExpressApp.Notifications.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Notifications.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Notifications.v18.2.dll
+	DevExpress.ExpressApp.Notifications.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Notifications.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Notifications.Win.v18.2.dll
+	DevExpress.ExpressApp.Objects.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Objects.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Objects.v18.2.dll
+	DevExpress.ExpressApp.Office.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Office.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Office.Win.v18.2.dll
+	DevExpress.ExpressApp.PivotChart.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotChart.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotChart.v18.2.dll
+	DevExpress.ExpressApp.PivotChart.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotChart.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotChart.Win.v18.2.dll
+	DevExpress.ExpressApp.ReportsV2.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.v18.2.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.Win.v18.2.dll
+	DevExpress.ExpressApp.Scheduler.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.v18.2.dll
+	DevExpress.ExpressApp.Scheduler.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.Win.v18.2.dll
+	DevExpress.ExpressApp.ScriptRecorder.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ScriptRecorder.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ScriptRecorder.v18.2.dll
+	DevExpress.ExpressApp.ScriptRecorder.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ScriptRecorder.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ScriptRecorder.Win.v18.2.dll
+	DevExpress.ExpressApp.Security.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v18.2.dll
+	DevExpress.ExpressApp.Security.Xpo.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.Xpo.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.Xpo.v18.2.dll
+	DevExpress.ExpressApp.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.v18.2.dll
+	DevExpress.ExpressApp.Validation.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v18.2.dll
+	DevExpress.ExpressApp.Validation.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.Win.v18.2.dll
+	DevExpress.ExpressApp.ViewVariantsModule.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ViewVariantsModule.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ViewVariantsModule.v18.2.dll
+	DevExpress.ExpressApp.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v18.2.dll
+	DevExpress.ExpressApp.Xpo.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v18.2.dll
+	DevExpress.Persistent.Base.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Persistent.Base.v18.2.dll
+	DevExpress.Persistent.BaseImpl.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v18.2.dll
+	DevExpress.Printing.v18.2.Core, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v18.2.Core\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Printing.v18.2.Core.dll
+	DevExpress.Utils.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Utils.v18.2.dll
+	DevExpress.Xpo.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Xpo.v18.2.dll
+	DevExpress.XtraBars.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraBars.v18.2.dll
+	DevExpress.XtraEditors.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraEditors.v18.2.dll
+	DevExpress.XtraReports.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraReports.v18.2.dll
+	DevExpress.XtraReports.v18.2.Extensions, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v18.2.Extensions\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraReports.v18.2.Extensions.dll
+	DevExpress.XtraScheduler.v18.2.Core, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraScheduler.v18.2.Core\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraScheduler.v18.2.Core.dll
+	MainDemo.Module, Version=18.2.3.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\bin\Debug\MainDemo.Module.dll
+	MainDemo.Module.Win, Version=18.2.3.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\bin\Debug\MainDemo.Module.Win.dll
+	MainDemo.Win, Version=18.2.3.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\bin\Debug\MainDemo.Win.exe
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Data.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.Entity\v4.0_4.0.0.0__b77a5c561934e089\System.Data.Entity.dll
+	System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Runtime.Remoting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	UIAutomationClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\UIAutomationClient\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationClient.dll
+29.11.18 14:21:07.495	Resolve the 'DevExpress.BonusSkins.v18.2, Version=18.2.3.0' assembly
+29.11.18 14:21:07.662	SetupModules
+29.11.18 14:21:07.775	Customize TypesInfo
+29.11.18 14:21:10.275		preferredLanguageName: (Default language)
+								userLanguageName: en-GB
+
+29.11.18 14:21:10.276		preferredLanguageName: (Default language)
+								userFormattingCultureName: 
+								selectedFormattingCultureName: 
+
+29.11.18 14:21:10.277	User's language is empty
+29.11.18 14:21:10.278	--------------------------------------------------------------------------------
+							Start logon process
+
+29.11.18 14:21:10.278	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+29.11.18 14:21:10.279		ConnectionString: integrated security=SSPI;pooling=false;data source=(localdb)\mssqllocaldb;initial catalog=MainDemo_v18.2;XpoDataStorePool=True;
+29.11.18 14:21:10.279		ConnectionString: 
+29.11.18 14:21:12.455	--------------------------------------------------------------------------------
+							UpdateDB
+
+29.11.18 14:21:12.511		ConnectionString: integrated security=SSPI;pooling=false;data source=(localdb)\mssqllocaldb;initial catalog=MainDemo_v18.2;XpoDataStorePool=True;
+29.11.18 14:21:12.656	ExecuteScalarCommand: 'select CHARACTER_MAXIMUM_LENGTH from INFORMATION_SCHEMA.Columns WHERE TABLE_NAME = 'Analysis' AND COLUMN_NAME = 'Criteria'', silent=True
+29.11.18 14:21:13.094	--------------------------------------------------------------------------------
+							Logon successful
+
+29.11.18 14:21:13.099	--------------------------------------------------------------------------------
+							Logon completed
+
+29.11.18 14:21:13.267		startUpActions: 1
+29.11.18 14:21:13.322	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+29.11.18 14:21:13.792	Generate default Model for Action containers
+29.11.18 14:21:24.187	Application startup done
+=========================
+29.11.18 14:21:24.187	Application running
+====================
+29.11.18 14:21:36.441	--------------------------------------------------------------------------------
+							Execute action
+
+29.11.18 14:21:36.443		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: DialogOK
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.SystemModule.DialogController
+								Context.Name: Payments
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: MainDemo.Module.BusinessObjects.Payment(589b69ad-c50d-4b69-848c-063136ff0d3a)
+
+29.11.18 14:21:36.448	Window closing: Main Demo
+29.11.18 14:21:36.453	Window closed: Main Demo
+29.11.18 14:21:36.508	Action 'DialogOK' done
+29.11.18 14:22:09.895	================================================================================
+29.11.18 14:22:09.900	Trace Log for MainDemo.Win.exe is started
+29.11.18 14:22:09.900	================================================================================
+29.11.18 14:22:09.901	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 18.2.3.0
+	eXpressApp File Version: 18.2.3.18324
+
+Application config
+	NewVersionServer=
+	EnableDiagnosticActions=False
+	Languages=de;es;ja;ru
+	EasyTestCommunicationPort=15923
+	FeedbackDemoName=MainDemo.Win.CS
+	FeedbackDescription=This demo allows you to store contacts, tasks, events, reports and other related data. It includes reusable XAF modules such Reports, Office, Scheduler, View Variants, PivotChart, AuditTrail, FileAttachments. User authentication and authorization, role and permission administration are powered by XAF’s Security module. The demo also illustrates numerous real-life usage scenarios: business logic in data models, custom Views with Controllers and Actions, data filters with code attributes or Model Editor, underlying UI control customizations, localization, etc. eXpressPersistent Objects ORM is used for data access.
+
+29.11.18 14:22:10.026	Initialize application
+=======================
+29.11.18 14:22:10.027		Command line arguments: 
+		C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\bin\Debug\MainDemo.Win.exe
+		UserName=Jajcuś
+		ViewId=Contact_ListView
+29.11.18 14:22:10.296	Resolve the 'DevExpress.ExpressApp.Security.Xpo.v18.2' assembly
+29.11.18 14:22:10.323	The ValueManagerType is initialized by the default value: SimpleValueManager.
+29.11.18 14:22:10.330	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   at DevExpress.ExpressApp.ReportsV2.ReportsModuleV2.Setup(XafApplication application)
+   at DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   at System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   at DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   at MainDemo.Win.MainDemoWinApplication.InitializeComponent() in C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\MainDemoWinApplication.Designer.cs:line 111
+   at MainDemo.Win.MainDemoWinApplication..ctor() in C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\MainDemoWinApplication.cs:line 25
+   at MainDemo.Win.Program.Main(String[] arguments) in C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\Program.cs:line 41
+
+29.11.18 14:22:10.373	>>EasyTestRemotingRegistration Register
+29.11.18 14:22:10.378	CreateServerChannel port: 15923
+29.11.18 14:22:10.391	<<EasyTestRemotingRegistration Register
+29.11.18 14:22:10.560	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+29.11.18 14:22:10.561	--------------------------------------------------------------------------------
+							
+
+29.11.18 14:22:10.562	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.Data.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Data.v18.2.dll
+	DevExpress.ExpressApp.AuditTrail.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.AuditTrail.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.AuditTrail.v18.2.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v18.2.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.FileAttachment.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.FileAttachment.Win.v18.2.dll
+	DevExpress.ExpressApp.Notifications.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Notifications.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Notifications.v18.2.dll
+	DevExpress.ExpressApp.Notifications.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Notifications.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Notifications.Win.v18.2.dll
+	DevExpress.ExpressApp.Objects.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Objects.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Objects.v18.2.dll
+	DevExpress.ExpressApp.Office.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Office.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Office.Win.v18.2.dll
+	DevExpress.ExpressApp.PivotChart.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotChart.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotChart.v18.2.dll
+	DevExpress.ExpressApp.PivotChart.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotChart.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotChart.Win.v18.2.dll
+	DevExpress.ExpressApp.ReportsV2.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.v18.2.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.Win.v18.2.dll
+	DevExpress.ExpressApp.Scheduler.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.v18.2.dll
+	DevExpress.ExpressApp.Scheduler.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.Win.v18.2.dll
+	DevExpress.ExpressApp.ScriptRecorder.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ScriptRecorder.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ScriptRecorder.v18.2.dll
+	DevExpress.ExpressApp.ScriptRecorder.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ScriptRecorder.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ScriptRecorder.Win.v18.2.dll
+	DevExpress.ExpressApp.Security.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v18.2.dll
+	DevExpress.ExpressApp.Security.Xpo.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.Xpo.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.Xpo.v18.2.dll
+	DevExpress.ExpressApp.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.v18.2.dll
+	DevExpress.ExpressApp.Validation.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v18.2.dll
+	DevExpress.ExpressApp.Validation.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.Win.v18.2.dll
+	DevExpress.ExpressApp.ViewVariantsModule.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ViewVariantsModule.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ViewVariantsModule.v18.2.dll
+	DevExpress.ExpressApp.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v18.2.dll
+	DevExpress.ExpressApp.Xpo.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v18.2.dll
+	DevExpress.Persistent.Base.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Persistent.Base.v18.2.dll
+	DevExpress.Persistent.BaseImpl.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v18.2.dll
+	DevExpress.Printing.v18.2.Core, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v18.2.Core\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Printing.v18.2.Core.dll
+	DevExpress.Utils.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Utils.v18.2.dll
+	DevExpress.Xpo.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Xpo.v18.2.dll
+	DevExpress.XtraBars.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraBars.v18.2.dll
+	DevExpress.XtraEditors.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraEditors.v18.2.dll
+	DevExpress.XtraReports.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraReports.v18.2.dll
+	DevExpress.XtraReports.v18.2.Extensions, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v18.2.Extensions\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraReports.v18.2.Extensions.dll
+	DevExpress.XtraScheduler.v18.2.Core, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraScheduler.v18.2.Core\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraScheduler.v18.2.Core.dll
+	MainDemo.Module, Version=18.2.3.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\bin\Debug\MainDemo.Module.dll
+	MainDemo.Module.Win, Version=18.2.3.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\bin\Debug\MainDemo.Module.Win.dll
+	MainDemo.Win, Version=18.2.3.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\bin\Debug\MainDemo.Win.exe
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Data.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.Entity\v4.0_4.0.0.0__b77a5c561934e089\System.Data.Entity.dll
+	System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Runtime.Remoting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	UIAutomationClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\UIAutomationClient\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationClient.dll
+29.11.18 14:22:10.611	Resolve the 'DevExpress.BonusSkins.v18.2, Version=18.2.3.0' assembly
+29.11.18 14:22:10.748	SetupModules
+29.11.18 14:22:10.861	Customize TypesInfo
+29.11.18 14:22:13.394		preferredLanguageName: (Default language)
+								userLanguageName: en-GB
+
+29.11.18 14:22:13.395		preferredLanguageName: (Default language)
+								userFormattingCultureName: 
+								selectedFormattingCultureName: 
+
+29.11.18 14:22:13.397	User's language is empty
+29.11.18 14:22:13.398	--------------------------------------------------------------------------------
+							Start logon process
+
+29.11.18 14:22:13.399	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+29.11.18 14:22:13.400		ConnectionString: integrated security=SSPI;pooling=false;data source=(localdb)\mssqllocaldb;initial catalog=MainDemo_v18.2;XpoDataStorePool=True;
+29.11.18 14:22:13.400		ConnectionString: 
+29.11.18 14:22:13.789	--------------------------------------------------------------------------------
+							UpdateDB
+
+29.11.18 14:22:13.846		ConnectionString: integrated security=SSPI;pooling=false;data source=(localdb)\mssqllocaldb;initial catalog=MainDemo_v18.2;XpoDataStorePool=True;
+29.11.18 14:22:13.988	ExecuteScalarCommand: 'select CHARACTER_MAXIMUM_LENGTH from INFORMATION_SCHEMA.Columns WHERE TABLE_NAME = 'Analysis' AND COLUMN_NAME = 'Criteria'', silent=True
+29.11.18 14:22:14.438	--------------------------------------------------------------------------------
+							Logon successful
+
+29.11.18 14:22:14.451	--------------------------------------------------------------------------------
+							Logon completed
+
+29.11.18 14:22:14.634		startUpActions: 1
+29.11.18 14:22:14.775	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+29.11.18 14:22:15.214	Generate default Model for Action containers
+29.11.18 15:00:38.440	================================================================================
+29.11.18 15:00:38.445	Trace Log for MainDemo.Win.exe is started
+29.11.18 15:00:38.445	================================================================================
+29.11.18 15:00:38.446	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 18.2.3.0
+	eXpressApp File Version: 18.2.3.18324
+
+Application config
+	NewVersionServer=
+	EnableDiagnosticActions=False
+	Languages=de;es;ja;ru
+	EasyTestCommunicationPort=15923
+	FeedbackDemoName=MainDemo.Win.CS
+	FeedbackDescription=This demo allows you to store contacts, tasks, events, reports and other related data. It includes reusable XAF modules such Reports, Office, Scheduler, View Variants, PivotChart, AuditTrail, FileAttachments. User authentication and authorization, role and permission administration are powered by XAF’s Security module. The demo also illustrates numerous real-life usage scenarios: business logic in data models, custom Views with Controllers and Actions, data filters with code attributes or Model Editor, underlying UI control customizations, localization, etc. eXpressPersistent Objects ORM is used for data access.
+
+29.11.18 15:00:39.302	Initialize application
+=======================
+29.11.18 15:00:39.303		Command line arguments: 
+		C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\bin\Debug\MainDemo.Win.exe
+		UserName=Jajcuś
+		ViewId=Contact_ListView
+29.11.18 15:00:40.267	Resolve the 'DevExpress.ExpressApp.Security.Xpo.v18.2' assembly
+29.11.18 15:00:40.406	The ValueManagerType is initialized by the default value: SimpleValueManager.
+29.11.18 15:00:40.414	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   at DevExpress.ExpressApp.ReportsV2.ReportsModuleV2.Setup(XafApplication application)
+   at DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   at System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   at DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   at MainDemo.Win.MainDemoWinApplication.InitializeComponent() in C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\MainDemoWinApplication.Designer.cs:line 111
+   at MainDemo.Win.MainDemoWinApplication..ctor() in C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\MainDemoWinApplication.cs:line 25
+   at MainDemo.Win.Program.Main(String[] arguments) in C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\Program.cs:line 41
+
+29.11.18 15:00:40.756	>>EasyTestRemotingRegistration Register
+29.11.18 15:00:40.763	CreateServerChannel port: 15923
+29.11.18 15:00:40.778	<<EasyTestRemotingRegistration Register
+29.11.18 15:00:40.981	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+29.11.18 15:00:40.981	--------------------------------------------------------------------------------
+							
+
+29.11.18 15:00:40.982	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.Data.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Data.v18.2.dll
+	DevExpress.ExpressApp.AuditTrail.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.AuditTrail.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.AuditTrail.v18.2.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v18.2.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.FileAttachment.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.FileAttachment.Win.v18.2.dll
+	DevExpress.ExpressApp.Notifications.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Notifications.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Notifications.v18.2.dll
+	DevExpress.ExpressApp.Notifications.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Notifications.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Notifications.Win.v18.2.dll
+	DevExpress.ExpressApp.Objects.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Objects.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Objects.v18.2.dll
+	DevExpress.ExpressApp.Office.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Office.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Office.Win.v18.2.dll
+	DevExpress.ExpressApp.PivotChart.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotChart.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotChart.v18.2.dll
+	DevExpress.ExpressApp.PivotChart.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotChart.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotChart.Win.v18.2.dll
+	DevExpress.ExpressApp.ReportsV2.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.v18.2.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.Win.v18.2.dll
+	DevExpress.ExpressApp.Scheduler.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.v18.2.dll
+	DevExpress.ExpressApp.Scheduler.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.Win.v18.2.dll
+	DevExpress.ExpressApp.ScriptRecorder.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ScriptRecorder.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ScriptRecorder.v18.2.dll
+	DevExpress.ExpressApp.ScriptRecorder.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ScriptRecorder.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ScriptRecorder.Win.v18.2.dll
+	DevExpress.ExpressApp.Security.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v18.2.dll
+	DevExpress.ExpressApp.Security.Xpo.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.Xpo.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.Xpo.v18.2.dll
+	DevExpress.ExpressApp.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.v18.2.dll
+	DevExpress.ExpressApp.Validation.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v18.2.dll
+	DevExpress.ExpressApp.Validation.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.Win.v18.2.dll
+	DevExpress.ExpressApp.ViewVariantsModule.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ViewVariantsModule.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ViewVariantsModule.v18.2.dll
+	DevExpress.ExpressApp.Win.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v18.2.dll
+	DevExpress.ExpressApp.Xpo.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v18.2.dll
+	DevExpress.Persistent.Base.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Persistent.Base.v18.2.dll
+	DevExpress.Persistent.BaseImpl.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v18.2.dll
+	DevExpress.Printing.v18.2.Core, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v18.2.Core\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Printing.v18.2.Core.dll
+	DevExpress.Utils.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Utils.v18.2.dll
+	DevExpress.Xpo.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.Xpo.v18.2.dll
+	DevExpress.XtraBars.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraBars.v18.2.dll
+	DevExpress.XtraEditors.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraEditors.v18.2.dll
+	DevExpress.XtraReports.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v18.2\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraReports.v18.2.dll
+	DevExpress.XtraReports.v18.2.Extensions, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v18.2.Extensions\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraReports.v18.2.Extensions.dll
+	DevExpress.XtraScheduler.v18.2.Core, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraScheduler.v18.2.Core\v4.0_18.2.3.0__b88d1754d700e49a\DevExpress.XtraScheduler.v18.2.Core.dll
+	MainDemo.Module, Version=18.2.3.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\bin\Debug\MainDemo.Module.dll
+	MainDemo.Module.Win, Version=18.2.3.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\bin\Debug\MainDemo.Module.Win.dll
+	MainDemo.Win, Version=18.2.3.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\jkosinski\Documents\GitHub\Xaf-Main-Demo\MainDemo.Win\bin\Debug\MainDemo.Win.exe
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Data.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.Entity\v4.0_4.0.0.0__b77a5c561934e089\System.Data.Entity.dll
+	System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Runtime.Remoting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	UIAutomationClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\UIAutomationClient\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationClient.dll
+29.11.18 15:00:41.018	Resolve the 'DevExpress.BonusSkins.v18.2, Version=18.2.3.0' assembly
+29.11.18 15:00:41.489	SetupModules
+29.11.18 15:00:41.600	Customize TypesInfo
+29.11.18 15:00:46.983		preferredLanguageName: (Default language)
+								userLanguageName: en-GB
+
+29.11.18 15:00:46.984		preferredLanguageName: (Default language)
+								userFormattingCultureName: 
+								selectedFormattingCultureName: 
+
+29.11.18 15:00:46.985	User's language is empty
+29.11.18 15:00:46.986	--------------------------------------------------------------------------------
+							Start logon process
+
+29.11.18 15:00:46.987	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+29.11.18 15:00:46.988		ConnectionString: integrated security=SSPI;pooling=false;data source=(localdb)\mssqllocaldb;initial catalog=MainDemo_v18.2;XpoDataStorePool=True;
+29.11.18 15:00:46.988		ConnectionString: 
+29.11.18 15:00:50.057	--------------------------------------------------------------------------------
+							UpdateDB
+
+29.11.18 15:00:50.117		ConnectionString: integrated security=SSPI;pooling=false;data source=(localdb)\mssqllocaldb;initial catalog=MainDemo_v18.2;XpoDataStorePool=True;
+29.11.18 15:00:50.264	ExecuteScalarCommand: 'select CHARACTER_MAXIMUM_LENGTH from INFORMATION_SCHEMA.Columns WHERE TABLE_NAME = 'Analysis' AND COLUMN_NAME = 'Criteria'', silent=True
+29.11.18 15:00:50.766	--------------------------------------------------------------------------------
+							Logon successful
+
+29.11.18 15:00:50.771	--------------------------------------------------------------------------------
+							Logon completed
+
+29.11.18 15:00:51.046		startUpActions: 1
+29.11.18 15:00:51.128	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+29.11.18 15:00:51.708	Generate default Model for Action containers
+29.11.18 15:00:52.179	Application startup done
+=========================
+29.11.18 15:00:52.181	Application running
+====================
