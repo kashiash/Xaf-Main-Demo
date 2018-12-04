@@ -19,10 +19,9 @@ namespace MainDemo.Module.Win.Controllers
                 sp.CreatedView = view;
                 sp.NewWindowTarget = NewWindowTarget.MdiChild;
 
-                sp.TargetWindow = TargetWindow.Default;
+                sp.TargetWindow = TargetWindow.NewModalWindow;
+           
                 var ss = new ShowViewSource(this.Frame, null);
-
-
                 SingleViewParameters.createdView = view;
                 Application.ShowViewStrategy.ShowView(sp, ss);
             }));
