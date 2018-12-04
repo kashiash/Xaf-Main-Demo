@@ -143,6 +143,9 @@
     <Reference Include="DevExpress.XtraReports.v18.2.Extensions">
       <Private>False</Private>
     </Reference>
+    <Reference Include="DevExpress.CodeParser.v18.2">
+      <Private>False</Private>
+    </Reference>
     <Reference Include="DevExpress.XtraReports.v18.2">
       <Private>False</Private>
     </Reference>
@@ -209,6 +212,7 @@
     <Compile Include="BusinessObjects\Location.cs" />
     <Compile Include="BusinessObjects\PortfolioFileData.cs" />
     <Compile Include="BusinessObjects\Position.cs" />
+    <Compile Include="BusinessObjects\SingleViewParameters.cs" />
     <Compile Include="Controllers\ClearContactTasksController.cs">
       <SubType>Component</SubType>
     </Compile>

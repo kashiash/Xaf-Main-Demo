@@ -254,6 +254,9 @@
     <Reference Include="DevExpress.XtraPivotGrid.v18.2">
       <Private>False</Private>
     </Reference>
+    <Reference Include="DevExpress.CodeParser.v18.2">
+      <Private>False</Private>
+    </Reference>
     <Reference Include="DevExpress.XtraReports.v18.2">
       <Private>False</Private>
     </Reference>

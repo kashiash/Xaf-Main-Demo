@@ -6,22 +6,12 @@ using DevExpress.ExpressApp.Xpo;
 using DevExpress.ExpressApp.Security.ClientServer;
 using DevExpress.Persistent.BaseImpl.PermissionPolicy;
 
-namespace MainDemo.Win {
-    public partial class MainDemoWinApplication : WinApplication {
-        #region Default XAF configuration options (https://www.devexpress.com/kb=T501418)
-        static MainDemoWinApplication() {
-            DevExpress.Persistent.Base.PasswordCryptographer.EnableRfc2898 = true;
-            DevExpress.Persistent.Base.PasswordCryptographer.SupportLegacySha512 = false;
-            DevExpress.Xpo.XpoDefault.TrackPropertiesModifications = true;
-        }
-        private void InitializeDefaults() {
-            LinkNewObjectToParentImmediately = false;
-            OptimizedControllersCreation = true;
-            EnableModelCache = true;
-            UseLightStyle = true;
-        }
-        #endregion
-        public MainDemoWinApplication() {
+namespace MainDemo.Win
+{
+    public partial class MainDemoWinApplication : WinApplication
+    {
+        public MainDemoWinApplication()
+        {
             InitializeComponent();
 
             #region DEMO_REMOVE
@@ -35,25 +25,48 @@ namespace MainDemo.Win {
             InitializeDefaults();
             DevExpress.ExpressApp.ScriptRecorder.ScriptRecorderControllerBase.ScriptRecorderEnabled = true;
 
-            _Application.Modules.Add(new WindowsIntegrationWindowsFormsModule());
+            //  Application.Modules.Add(new WindowsIntegrationWindowsFormsModule());
         }
-        protected override void CreateDefaultObjectSpaceProvider(CreateCustomObjectSpaceProviderEventArgs args) {
-            args.ObjectSpaceProviders.Add(new SecuredObjectSpaceProvider((ISelectDataSecurityProvider)Security, XPObjectSpaceProvider.GetDataStoreProvider(args.ConnectionString, args.Connection, true), false));
-            args.ObjectSpaceProviders.Add(new NonPersistentObjectSpaceProvider(TypesInfo, null));
-        }
-        private void MainDemoWinApplication_DatabaseVersionMismatch(object sender, DatabaseVersionMismatchEventArgs e) {
+
+        private void MainDemoWinApplication_DatabaseVersionMismatch(object sender, DatabaseVersionMismatchEventArgs e)
+        {
             e.Updater.Update();
             e.Handled = true;
         }
-        private void MainDemoWinApplication_LastLogonParametersRead(object sender, LastLogonParametersReadEventArgs e) {
+        private void MainDemoWinApplication_LastLogonParametersRead(object sender, LastLogonParametersReadEventArgs e)
+        {
             // Just to read demo user name for logon.
             AuthenticationStandardLogonParameters logonParameters = e.LogonObject as AuthenticationStandardLogonParameters;
-            if(logonParameters != null) {
-                if(String.IsNullOrEmpty(logonParameters.UserName)) {
+            if (logonParameters != null)
+            {
+                if (String.IsNullOrEmpty(logonParameters.UserName))
+                {
                     logonParameters.UserName = "Sam";
                 }
             }
         }
+
+        protected override void CreateDefaultObjectSpaceProvider(CreateCustomObjectSpaceProviderEventArgs args)
+        {
+            args.ObjectSpaceProviders.Add(new SecuredObjectSpaceProvider((ISelectDataSecurityProvider)Security, XPObjectSpaceProvider.GetDataStoreProvider(args.ConnectionString, args.Connection, true), false));
+            args.ObjectSpaceProviders.Add(new NonPersistentObjectSpaceProvider(TypesInfo, null));
+        }
+
+        #region Default XAF configuration options (https://www.devexpress.com/kb=T501418)
+        static MainDemoWinApplication()
+        {
+            DevExpress.Persistent.Base.PasswordCryptographer.EnableRfc2898 = true;
+            DevExpress.Persistent.Base.PasswordCryptographer.SupportLegacySha512 = false;
+            DevExpress.Xpo.XpoDefault.TrackPropertiesModifications = true;
+        }
+        private void InitializeDefaults()
+        {
+            LinkNewObjectToParentImmediately = false;
+            OptimizedControllersCreation = true;
+            EnableModelCache = true;
+            UseLightStyle = true;
+        }
+        #endregion
     }
 
     #region DEMO_REMOVE

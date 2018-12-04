@@ -433,6 +433,14 @@ namespace MainDemo.Module.DatabaseUpdate {
             #endregion
 
             #region Create Users for the Complex Security Strategy
+            PermissionPolicyUser user0 = ObjectSpace.FindObject<PermissionPolicyUser>(new BinaryOperator("UserName", "Jajcuś"));
+            if (user0 == null)
+            {
+                user0 = ObjectSpace.CreateObject<PermissionPolicyUser>();
+                user0.UserName = "Sam";
+                // Set a password if the standard authentication type is used
+                user0.SetPassword("");
+            }
             // If a user named 'Sam' doesn't exist in the database, create this user
             PermissionPolicyUser user1 = ObjectSpace.FindObject<PermissionPolicyUser>(new BinaryOperator("UserName", "Sam"));
             if(user1 == null) {
@@ -477,9 +485,11 @@ namespace MainDemo.Module.DatabaseUpdate {
             }
 
             // Add the Administrators role to the user1
+            
             user1.Roles.Add(adminRole);
             // Add the Users role to the user2
             user2.Roles.Add(userRole);
+            user0.Roles.Add(userRole);
             #endregion
 
             ObjectSpace.CommitChanges();

@@ -109,6 +109,9 @@
     <Reference Include="DevExpress.Printing.v18.2.Core">
       <Private>False</Private>
     </Reference>
+    <Reference Include="DevExpress.Office.v18.2.Core">
+      <Private>False</Private>
+    </Reference>
     <Reference Include="DevExpress.RichEdit.v18.2.Core">
       <Private>False</Private>
     </Reference>
@@ -181,11 +184,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\DetailViewLayoutCustomizationController.cs" />
-    <Compile Include="Controllers\RichNotesListViewController.cs" />
-    <Compile Include="Controllers\JumpListHandleStartupItemController.cs">
+    <Compile Include="Controllers\CustomViewController.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Controllers\CustomWinShowStartupNavigationItemController.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\DetailViewLayoutCustomizationController.cs" />
+    <Compile Include="Controllers\DeactivateUnnecessaryActionsController.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\RichNotesListViewController.cs" />
     <Compile Include="Controllers\WinTooltipController.cs">
       <SubType>Component</SubType>
     </Compile>

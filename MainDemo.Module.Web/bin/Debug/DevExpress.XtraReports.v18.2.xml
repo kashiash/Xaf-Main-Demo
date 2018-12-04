@@ -1175,13 +1175,13 @@
         <member name="T:DevExpress.XtraReports.UI.VerticalBand">
 
             <summary>
-                <para>A base class for vertical bands</para>
+                <para> </para>
             </summary>
 
         </member>
         <member name="P:DevExpress.XtraReports.UI.VerticalBand.BoundsF">
             <summary>
-                <para>For internal use.</para>
+                <para> </para>
             </summary>
             <value> </value>
 
@@ -1189,25 +1189,25 @@
         </member>
         <member name="P:DevExpress.XtraReports.UI.VerticalBand.HeightF">
             <summary>
-                <para>Specifies the band&#39;s height (measured in report units).</para>
+                <para> </para>
             </summary>
-            <value>The band&#39;s height.</value>
+            <value> </value>
 
 
         </member>
         <member name="P:DevExpress.XtraReports.UI.VerticalBand.PageBreak">
             <summary>
-                <para>Page break is not supported in vertical bands.</para>
+                <para> </para>
             </summary>
-            <value>The PageBreak.None value.</value>
+            <value> </value>
 
 
         </member>
         <member name="P:DevExpress.XtraReports.UI.VerticalBand.SizeF">
             <summary>
-                <para>Specifies the band&#39;s size (measured in report units).</para>
+                <para> </para>
             </summary>
-            <value>A pair of floating-point width and height sizes.</value>
+            <value> </value>
 
 
         </member>
@@ -3516,7 +3516,7 @@
         <member name="T:DevExpress.XtraReports.UI.VerticalTotalBand">
 
             <summary>
-                <para>A vertical band that goes after the Vertical Detail (see <see cref="T:DevExpress.XtraReports.UI.VerticalDetailBand"/>) band.</para>
+                <para> </para>
             </summary>
 
         </member>
@@ -6616,7 +6616,7 @@
         <member name="T:DevExpress.XtraReports.UI.VerticalDetailBand">
 
             <summary>
-                <para>A vertical band that displays recurring content from the report&#39;s data source.</para>
+                <para> </para>
             </summary>
 
         </member>
@@ -6629,17 +6629,17 @@
         </member>
         <member name="P:DevExpress.XtraReports.UI.VerticalDetailBand.BandLayout">
             <summary>
-                <para>Specifies how to arrange the Vertical Detail band&#39;s content across several pages.</para>
+                <para> </para>
             </summary>
-            <value>A <see cref="T:DevExpress.XtraReports.UI.VerticalBandLayout"/> value that specifies whether to display the band&#39;s content that does not fit on a page on the same page or on the next page.</value>
+            <value> </value>
 
 
         </member>
         <member name="P:DevExpress.XtraReports.UI.VerticalDetailBand.SortFields">
             <summary>
-                <para>Gets the collection of data fields used to sort the data in the report&#39;s data source.</para>
+                <para> </para>
             </summary>
-            <value>A collection of data fields to sort by.</value>
+            <value> </value>
 
 
         </member>
@@ -35342,7 +35342,7 @@
         <member name="T:DevExpress.XtraReports.UI.VerticalHeaderBand">
 
             <summary>
-                <para>A vertical band that goes before the Vertical Detail (see <see cref="T:DevExpress.XtraReports.UI.VerticalDetailBand"/>) band.</para>
+                <para> </para>
             </summary>
 
         </member>
@@ -35355,9 +35355,9 @@
         </member>
         <member name="P:DevExpress.XtraReports.UI.VerticalHeaderBand.RepeatEveryPage">
             <summary>
-                <para>Specifies whether to repeat the Vertical Header band&#39;s content on each page if the Vertical Detail and Vertical Total bands&#39; content occupies several pages.</para>
+                <para> </para>
             </summary>
-            <value><b>true</b>, to repeat the band&#39;s content on each page; otherwise, <b>false</b>.</value>
+            <value> </value>
 
 
         </member>
